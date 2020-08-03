@@ -1,0 +1,89 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+.my-custom-class .alert-wrapper {
+    min-width: 77.9% ;
+    min-height: 44.1%;
+    
+    max-height:98vw ;
+    border-radius: 8px ;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16) ;
+ color: white ;
+  border-top: 8px solid #fe9e46 ;
+  position: absolute;
+  top: 25.787106446776612vh;
+  left: 11.066666666666666vw;
+  
+  .scan-btn{
+   width: 38%;
+    height: 8%;
+  border-radius: 8px;
+  border: solid 2px #4452c6;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: 72%;
+  left: 10.6%;
+}
+.invoice-btn{
+  width: 38%;
+    height: 8%;
+  border-radius: 8px;
+  border: solid 1px #cccccc;
+  border-left: 8px #abf7b9 solid;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 72%;
+  left: 55.5%;
+}
+.submit{
+  width: 38%;
+    height: 8%;
+    border-radius: 5px;
+  background-color: #4452c6;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 87.5%;
+    left: 30%;
+    color: white;
+}
+
+.alert-button-inner{
+  
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: space-around;
+ 
+}
+  
+}
+
+
